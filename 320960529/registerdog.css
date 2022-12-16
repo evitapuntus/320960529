@@ -1,0 +1,96 @@
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+}
+
+.reg-dog-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.reg-dog-image-place {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+#reg_dog_image {
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.custom-file-input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.reg-dog-area {
+    width: 50vw;
+    height: 100vh;
+}
+
+.reg-dog-logo {
+    height: 15vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2vw;
+}
+
+.reg-dog-img-logo {
+    height: 100%;
+}
+
+.reg-dog-form {
+    direction: rtl;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.user-details {
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-control-register-dog {
+    border-radius: 15px;
+    border: 1px solid rgb(97, 97, 97);
+    height: 5vh;
+    font-size: 1.4em;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.last-submit-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fe-male-radio {
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.submit-button {
+    height: 11vh;
+    background-color: white;
+}
+
+.submit-button-image {
+    height: 100%;
+}
