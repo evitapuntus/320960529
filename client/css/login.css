@@ -1,0 +1,100 @@
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-image-place {
+    width: 43vw;
+    height: 100vh;
+    position: relative;
+}
+
+#login_image {
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.custom-file-input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.login-area {
+    width: 57vw;
+    height: 100vh;
+}
+
+.login-logo {
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    margin-top: 7vw;
+    margin-bottom: 5vh;
+}
+
+.login-img-logo {
+    height: 100%;
+}
+
+.login-form {
+    direction: rtl;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.login-buttons {
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+.login-buttons-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control-login {
+    border-radius: 15px;
+    border: 1px solid rgb(97, 97, 97);
+    height: 5vh;
+    font-size: 1.4em;
+    margin-top: 2vh;
+}
+
+.last-submit-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fe-male-radio {
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.submit-button {
+    height: 11vh;
+    background-color: white;
+}
+
+.submit-button-image {
+    height: 100%;
+}
